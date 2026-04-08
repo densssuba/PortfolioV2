@@ -48,13 +48,12 @@
    </main>
     
    <section class="max-w-7xl mx-auto px-4 py-16">
-    <div class="flex flex-col md:flex-row items-center gap-16">
+    <div class="flex flex-col md:flex-row items-stretch gap-8">
 
         <div class="md:w-1/2 bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-slate-100">
-            <h2 class="text-3xl font-bold text-sky-900 mb-6">Information</h2>
+            <h2 class="text-3xl font-bold text-sky-900 mb-6 text-center">Information</h2>
             
             <div class="space-y-4">
-
                 <div class="flex items-center gap-4">
                     <span class="text-sky-600 font-bold">✉️</span>
                     <p class="text-lg leading-relaxed text-slate-600">
@@ -71,8 +70,54 @@
             </div>
         </div>
 
-        <div class="md:w-1/2">
-             </div>
+        <div class="md:w-1/2 bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-slate-100">
+            <h2 class="text-3xl font-bold text-sky-900 mb-6 text-center">Skills</h2>
+            
+         <div class="flex flex-wrap gap-3">
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/laravel/FF2D20" class="w-4 h-4" alt="Laravel">
+            Laravel
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-4 h-4" alt="Tailwind">
+            Tailwind CSS
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/react/61DAFB" class="w-4 h-4" alt="React">
+            React
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/javascript/F7DF1E" class="w-4 h-4" alt="JS">
+            JavaScript
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4" alt="PHP">
+            PHP
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4" alt="MySQL">
+            MySQL
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <img src="https://cdn.simpleicons.org/git/F05032" class="w-4 h-4" alt="Git">
+            Git
+        </span>
+
+        <span class="flex items-center gap-2 px-4 py-2 bg-sky-50 text-sky-700 rounded-full font-semibold border border-sky-100 shadow-sm hover:bg-white transition">
+            <svg class="w-4 h-4 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+            </svg>
+            Laragon
+        </span>
+        </div>
+        </div>
+
     </div>
 </section>
 
