@@ -155,7 +155,7 @@
                     Available for Projects
                 </span>
                 <h1 class="text-5xl md:text-7xl font-extrabold text-slate-950 leading-[1.1] mb-8">
-                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-indigo-600">Dens Joshua</span>
+                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-indigo-600">Dens Joshua A. Suba</span>
                 </h1>
                 <p class="text-lg text-slate-600 leading-relaxed mb-10 max-w-lg">
                     I am a passionate web developer dedicated to creating user-friendly and visually appealing web applications that provide an exceptional user experience.
