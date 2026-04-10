@@ -321,6 +321,25 @@
     </div>
     </section>
 
+    <section id="education" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Academic Foundation</h2>
+        <div class="w-20 h-1.5 bg-sky-600 rounded-full mx-auto"></div>
+    </div>
+
+    <div class="max-w-3xl mx-auto">
+        <div class="bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
+            
+            <div class="relative z-10 text-center flex flex-col items-center">
+                <span class="text-xs font-bold text-sky-900 uppercase tracking-widest bg-white/50 px-3 py-1 rounded-full mb-6 inline-block">College</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-2">Bachelor of Science in Information Systems</h3>
+                <p class="text-lg font-semibold text-slate-800 mb-4">Pamantasan ng Lungsod ng San Pablo</p>
+            </div>
+        </div>
+    </div>
+</section>
+
    <section id="projects" class="py-24 bg-slate-950 rounded-t-[4rem] border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16">
