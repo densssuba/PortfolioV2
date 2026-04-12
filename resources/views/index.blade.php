@@ -159,6 +159,10 @@
                         <img src="https://api.iconify.design/vscode-icons:file-type-vscode.svg" class="w-5 h-5" alt="VS Code">
                         <span class="font-bold text-slate-700 text-sm">VS Code</span>
                     </div>
+                    <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
+                        <img src="https://cdn.simpleicons.org/Netlify/00C7B7" class="w-5 h-5" alt="Netlify">
+                        <span class="font-bold text-slate-700 text-sm">Netlify</span>
+                    </div>
                 </div>
             </div>
         </div>
