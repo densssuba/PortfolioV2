@@ -6,115 +6,7 @@
     <title>Dens Joshua | Full Stack Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="app.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
-
-        body { 
-            font-family: 'Inter', sans-serif; 
-        }
-
-        .loader {
-          width: 130px;
-          height: 170px;
-          position: relative;
-          font-family: inherit;
-        }
-
-        .loader::before, .loader::after {
-          content: "";
-          width: 0;
-          height: 0;
-          position: absolute;
-          bottom: 30px;
-          left: 15px;
-          z-index: 1;
-          border-left: 50px solid transparent;
-          border-right: 50px solid transparent;
-          border-bottom: 20px solid #1b2a33;
-          transform: scale(0);
-          transition: all 0.2s ease;
-        }
-
-        .loader::after {
-          border-right: 15px solid transparent;
-          border-bottom: 20px solid #162229;
-        }
-
-        .loader .getting-there {
-          width: 120%;
-          text-align: center;
-          position: absolute;
-          bottom: 0;
-          left: -7%;
-          font-size: 12px;
-          letter-spacing: 2px;
-          color: #0f172a; /* Changed to dark slate to show up on the teal background */
-          font-weight: bold;
-        }
-
-        .loader .binary {
-          width: 100%;
-          height: 140px;
-          display: block;
-          color: #0f172a; /* Changed to dark slate to show up on the teal background */
-          position: absolute;
-          top: 0;
-          left: 15px;
-          z-index: 2;
-          overflow: hidden;
-        }
-
-        .loader .binary::before, .loader .binary::after {
-          font-family: "Lato", sans-serif;
-          font-size: 24px;
-          position: absolute;
-          top: 0;
-          left: 0;
-          opacity: 0;
-        }
-
-        .loader .binary:nth-child(1)::before {
-          content: "0";
-          animation: a 1.1s linear infinite;
-        }
-
-        .loader .binary:nth-child(1)::after {
-          content: "0";
-          animation: b 1.3s linear infinite;
-        }
-
-        .loader .binary:nth-child(2)::before {
-          content: "1";
-          animation: c 0.9s linear infinite;
-        }
-
-        .loader .binary:nth-child(2)::after {
-          content: "1";
-          animation: d 0.7s linear infinite;
-        }
-
-        .loader.JS_on::before, .loader.JS_on::after {
-          transform: scale(1);
-        }
-
-        @keyframes a {
-          0% { transform: translate(30px, 0) rotate(30deg); opacity: 0; }
-          100% { transform: translate(30px, 150px) rotate(-50deg); opacity: 1; }
-        }
-        @keyframes b {
-          0% { transform: translate(50px, 0) rotate(-40deg); opacity: 0; }
-          100% { transform: translate(40px, 150px) rotate(80deg); opacity: 1; }
-        }
-        @keyframes c {
-          0% { transform: translate(70px, 0) rotate(10deg); opacity: 0; }
-          100% { transform: translate(60px, 150px) rotate(70deg); opacity: 1; }
-        }
-        @keyframes d {
-          0% { transform: translate(30px, 0) rotate(-50deg); opacity: 0; }
-          100% { transform: translate(45px, 150px) rotate(30deg); opacity: 1; }
-        }
-
-    </style>
+    @vite(['resources/css/app.css'])
 </head>
 <body class="bg-teal-100 text-slate-900 transition-colors duration-300">
 
@@ -140,13 +32,14 @@
                     <a href="#" class="text-black">Home</a>
                     <a href="#about" class="text-black hover:text-sky-600 transition">About</a>
                     <a href="#certificates" class="text-black hover:text-sky-600 transition">Certificates</a>
+                    <a href="#experience" class="text-black hover:text-sky-600 transition">Experience</a>
                     <a href="#projects" class="text-black hover:text-sky-600 transition">Projects</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <main class="relative overflow-hidden pt-16 pb-24">
+    <main class="relative overflow-hidden pt-16 pb-24 bg-slate-950 ">
         <div class="absolute top-0 right-0 -z-10 w-1/3 h-full bg-gradient-to-l from-sky-100/50 to-transparent rounded-l-full blur-3xl"></div>
         
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -154,10 +47,10 @@
                 <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-sky-600 uppercase bg-sky-100 rounded-full">
                     Available for Projects
                 </span>
-                <h1 class="text-5xl md:text-7xl font-extrabold text-slate-950 leading-[1.1] mb-8">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-[1.1] mb-8">
                     Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-indigo-600">Dens Joshua A. Suba</span>
                 </h1>
-                <p class="text-lg text-slate-600 leading-relaxed mb-10 max-w-lg">
+                <p class="text-lg text-white leading-relaxed mb-10 max-w-lg">
                     I am a passionate web developer dedicated to creating user-friendly and visually appealing web applications that provide an exceptional user experience.
                 </p>
                 <div class="flex gap-4">
@@ -190,8 +83,8 @@
         </div>
     </main>
 
-    <section id="about" class="max-w-7xl mx-auto px-6 py-24">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+    <section id="about" class="max-w-7xl mx-auto px-6 py-24  ">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch ">
             <div class="md:col-span-5 bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
                 <h2 class="text-2xl font-extrabold text-slate-900 mb-8 relative">Information</h2>
@@ -271,7 +164,7 @@
         </div>
     </section>
 
-    <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
+    <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60 ">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
             <div>
                 <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Certificates & Seminars</h2>
@@ -280,65 +173,96 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    <div class="group p-8 bg-sky-400 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-        <div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">Arduin Microprocessor Crash course” College of Computing Studies and technology, PLSP</h3>
-            <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
-        </div>
-        <a href="https://www.facebook.com/share/p/1J66uhAaWt/" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
-            More Info
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-            </svg>
-        </a>
-    </div>
+            <div class="group p-8 bg-sky-400 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+                <div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Arduin Microprocessor Crash course” College of Computing Studies and technology, PLSP</h3>
+                    <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
+                </div>
+                <a href="https://www.facebook.com/share/p/1J66uhAaWt/" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
+                    More Info
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
+            </div>
 
-        <div class="group p-8 bg-sky-400 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-            <div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">ICT MONTH Walang Iwanan sa Digital Bayanihan” College of Computing studies and technology, PLSP Pavillion, 2025 </h3>
-                <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
+            <div class="group p-8 bg-sky-400 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+                <div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">ICT MONTH Walang Iwanan sa Digital Bayanihan” College of Computing studies and technology, PLSP Pavillion, 2025 </h3>
+                    <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
+                </div>
+                <a href="https://www.facebook.com/share/p/18Z8kYB3wE/" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
+                    More Info
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
             </div>
-            <a href="https://www.facebook.com/share/p/18Z8kYB3wE/" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
-                More Info
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                </svg>
-            </a>
-        </div>
-        
-        <div class="group p-8 bg-sky-400 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-            <div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">“Managing a business venture” CISCO Networking Acadmey</h3>
-                <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
+            
+            <div class="group p-8 bg-sky-400 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+                <div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">“Managing a business venture” CISCO Networking Acadmey</h3>
+                    <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
+                </div>
+                <a href="https://www.credly.com/badges/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
+                    More Info
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
             </div>
-            <a href="https://www.credly.com/badges/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
-                More Info
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                </svg>
-            </a>
         </div>
-    </div>
     </section>
 
     <section id="education" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
-    <div class="text-center mb-12">
-        <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Academic Foundation</h2>
-        <div class="w-20 h-1.5 bg-sky-600 rounded-full mx-auto"></div>
-    </div>
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Academic Foundation</h2>
+            <div class="w-20 h-1.5 bg-sky-600 rounded-full mx-auto"></div>
+        </div>
 
-    <div class="max-w-3xl mx-auto">
-        <div class="bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
-            
-            <div class="relative z-10 text-center flex flex-col items-center">
-                <span class="text-xs font-bold text-sky-900 uppercase tracking-widest bg-white/50 px-3 py-1 rounded-full mb-6 inline-block">College</span>
-                <h3 class="text-2xl font-bold text-slate-900 mb-2">Bachelor of Science in Information Systems</h3>
-                <p class="text-lg font-semibold text-slate-800 mb-4">Pamantasan ng Lungsod ng San Pablo</p>
+        <div class="max-w-3xl mx-auto">
+            <div class="bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
+                
+                <div class="relative z-10 text-center flex flex-col items-center">
+                    <span class="text-xs font-bold text-sky-900 uppercase tracking-widest bg-white/50 px-3 py-1 rounded-full mb-6 inline-block">College</span>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Bachelor of Science in Information Systems Major in System and Network Security</h3>
+                    <p class="text-lg font-semibold text-slate-800 mb-4">Pamantasan ng Lungsod ng San Pablo</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section id="experience" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Experience</h2>
+            <div class="w-20 h-1.5 bg-sky-600 rounded-full mx-auto"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+            <div class="relative pl-8 sm:pl-32 py-6 group">
+                <div class="absolute left-2 sm:left-14 top-0 bottom-0 w-1 bg-sky-300 group-hover:bg-sky-500 transition-colors"></div>
+                <div class="absolute left-[-5px] sm:left-[47px] top-8 w-6 h-6 rounded-full bg-sky-600 border-4 border-teal-100 shadow-md"></div>
+                
+                <div class="sm:absolute left-0 top-8 sm:w-28 text-left sm:text-right pr-4 mb-3 sm:mb-0">
+                    <span class="text-sm font-bold text-sky-700 bg-sky-200 px-3 py-1 rounded-full">2026</span>
+                </div>
+                
+                <div class="bg-sky-400 p-8 rounded-[2.5rem] shadow-sm border border-slate-200/60 hover:shadow-xl hover:border-sky-500 hover:shadow-sky-100 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-sky-50 rounded-bl-full -mr-8 -mt-8 transition-all group-hover:scale-110 opacity-50"></div>
+                    
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">IT Intern (On-the-Job Training)</h3>
+                        <h4 class="text-lg font-semibold text-slate-800 mb-4">San Pablo Water District</h4>
+                        <p class="text-slate-800 leading-relaxed">
+                            Web-based ticketing system development for customer concerns and technical reports.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+    </section>
 
    <section id="projects" class="py-24 bg-slate-950 rounded-t-[4rem] border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-6">
@@ -421,23 +345,23 @@
                         </div>
                     </div>
 
-                <div class="md:w-2/3 p-12">
+                <div class="md:w-2/3 p-2 bg-slate-950 ">
                 <form action="{{ url('/send-message') }}" method="POST" class="space-y-6">
     
                     @csrf 
 
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                         <div class="space-y-2">
-                            <label class="text-sm font-bold text-slate-700">Name</label>
+                            <label class="text-sm font-bold text-white">Name</label>
                             <input type="text" name="name" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-sky-500 outline-none transition-all">
                         </div>
                         <div class="space-y-2">
-                            <label class="text-sm font-bold text-slate-700">Email</label>
+                            <label class="text-sm font-bold text-white">Email</label>
                             <input type="email" name="email" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-sky-500 outline-none transition-all">
                         </div>
                     </div>
                     <div class="space-y-2">
-                        <label class="text-sm font-bold text-slate-700">Message</label>
+                        <label class="text-sm font-bold text-white">Message</label>
                         <textarea name="message" rows="4" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-sky-500 outline-none transition-all"></textarea>
                     </div>
                     
@@ -453,25 +377,18 @@
         </div>
     </section>
 
-    <footer class="py-12 text-center text-black text-sm border-t border-slate-200 transition-colors">
+    <footer class="py-12 text-center text-white text-sm border-t border-slate-200 transition-colors bg-slate-950 ">
         <p>© 2026 Dens Joshua. All Rights Reserved.</p>
     </footer>
 
     <script>
-        // Wait until the entire page is fully loaded
         window.addEventListener('load', function() {
             const preloader = document.getElementById('preloader');
-            
-            // Set a minimum time the loader shows (e.g., 1.5 seconds) 
-            // so the animation gets seen even if the page loads instantly
             setTimeout(() => {
-                // Fade out using Tailwind's opacity-0 class
                 preloader.classList.add('opacity-0');
-                
-                // Wait for the CSS transition to finish before removing from DOM
                 setTimeout(() => {
                     preloader.style.display = 'none';
-                }, 700); // Matches the duration-700 class in the HTML
+                }, 700); 
             }, 1500); 
         });
     </script>
