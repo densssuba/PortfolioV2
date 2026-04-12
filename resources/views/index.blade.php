@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <nav class="sticky top-0 z-50 glass border-b border-slate-200/60 bg-sky-400">
+    <nav class="sticky top-0 z-50 glass border-b border-slate-200/60 bg-[#D4AF37]">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <div class="w-10 h-10 bg-sky-600 rounded-xl flex items-center justify-center shadow-lg shadow-sky-200">
@@ -86,7 +86,7 @@
     <section id="about" class="max-w-7xl mx-auto px-6 py-24  ">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch ">
             <div class="md:col-span-5 bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group">
-                <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
+                <div class="absolute top-0 right-0 w-32 h-32 bg-[#D4AF37] rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
                 <h2 class="text-2xl font-extrabold text-slate-900 mb-8 relative">Information</h2>
                 <div class="space-y-6 relative">
                     <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-50 hover:bg-sky-50 transition">
@@ -104,7 +104,7 @@
                 </div>
             </div>
 
-    <div class="md:col-span-7 bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60">
+    <div class="md:col-span-7 bg-[#D4AF37] p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60">
         <h2 class="text-2xl font-extrabold text-slate-900 mb-8">Tech Stack and Tools</h2>
         <div class="flex flex-wrap gap-3">
             <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-orange-500 hover:shadow-lg transition-all">
@@ -175,7 +175,7 @@
                     <h3 class="text-xl font-bold text-white mb-2">Arduin Microprocessor Crash course” College of Computing Studies and technology, PLSP</h3>
                     <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
                 </div>
-                <a href="https://www.facebook.com/share/p/1J66uhAaWt/" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-red-600 transition-colors">
+                <a href="https://www.facebook.com/share/p/1J66uhAaWt/" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
                     More Info
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -188,7 +188,7 @@
                     <h3 class="text-xl font-bold text-white mb-2">ICT MONTH Walang Iwanan sa Digital Bayanihan” College of Computing studies and technology, PLSP Pavillion, 2025 </h3>
                     <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
                 </div>
-                <a href="https://www.facebook.com/share/p/18Z8kYB3wE/" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-red-600 transition-colors">
+                <a href="https://www.facebook.com/share/p/18Z8kYB3wE/" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
                     More Info
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -201,7 +201,7 @@
                     <h3 class="text-xl font-bold text-white mb-2">“Managing a business venture” CISCO Networking Acadmey</h3>
                     <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
                 </div>
-                <a href="https://www.credly.com/earner/earned/share/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-red-600 transition-colors">
+                <a href="https://www.credly.com/earner/earned/share/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
                     More Info
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -314,19 +314,19 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="bg-sky-400 rounded-[3rem] shadow-2xl shadow-sky-100 overflow-hidden border border-slate-100">
                 <div class="flex flex-col md:flex-row">
-                    <div class="md:w-1/3 bg-sky-900 p-12 text-white relative overflow-hidden">
+                    <div class="md:w-1/3 bg-[#D4AF37] p-12 text-white relative overflow-hidden">
                         <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-sky-400 rounded-full opacity-50"></div>
                         <h2 class="text-3xl font-extrabold mb-6 relative">Contact Me</h2>
                         <div class="space-y-8 relative">
                             <div class="flex items-center gap-4">
                                 <div>
-                                    <p class="text-xs font-bold text-sky-300 uppercase tracking-widest">Email</p>
+                                    <p class="text-xs font-bold text-black uppercase tracking-widest">Email</p>
                                     <p class="font-semibold">subadensjoshua@gmail.com</p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-4">
                                 <div>
-                                    <p class="text-xs font-bold text-sky-300 uppercase tracking-widest">Phone</p>
+                                    <p class="text-xs font-bold text-black uppercase tracking-widest">Phone</p>
                                     <p class="font-semibold">09204296323</p>
                                 </div>
                             </div>
