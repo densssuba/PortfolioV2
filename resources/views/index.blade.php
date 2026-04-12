@@ -208,7 +208,7 @@
                     <h3 class="text-xl font-bold text-slate-900 mb-2">“Managing a business venture” CISCO Networking Acadmey</h3>
                     <p class="text-xs font-bold text-black uppercase tracking-widest mb-6">Issued: June 2025</p>
                 </div>
-                <a href="https://www.credly.com/badges/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
+                <a href="https://www.credly.com/earner/earned/share/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-slate-800 hover:text-slate-950 transition-colors">
                     More Info
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
