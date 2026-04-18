@@ -10,7 +10,7 @@
 </head>
 <body class="bg-teal-100 text-slate-900 transition-colors duration-300">
 
-    <div id="preloader" class="fixed inset-0 z-[9999] bg-teal-100 flex items-center justify-center transition-opacity duration-700 ease-in-out">
+    <div id="preloader" class="fixed inset-0 z-[9999] bg-slate-950 flex items-center justify-center transition-opacity duration-700 ease-in-out">
         <div class="loader JS_on">
             <span class="binary"></span>
             <span class="binary"></span>
@@ -85,9 +85,9 @@
 
     <section id="about" class="max-w-7xl mx-auto px-6 py-24  ">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch ">
-            <div class="md:col-span-5 bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group">
+            <div class="md:col-span-5 bg-slate-950 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-[#D4AF37] rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
-                <h2 class="text-2xl font-extrabold text-slate-900 mb-8 relative">Information</h2>
+                <h2 class="text-2xl font-extrabold text-white mb-8 relative">Information</h2>
                 <div class="space-y-6 relative">
                     <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-50 hover:bg-sky-50 transition">
                         <div>
@@ -164,8 +164,9 @@
     <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60 ">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
             <div>
-                <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Certificates & Seminars</h2>
-                <div class="w-20 h-1.5 bg-sky-600 rounded-full"></div>
+                <h2 class="animate-pulse text-4xl font-extrabold text-[#D4AF37] mb-4">
+                    Certificates & Seminars
+                </h2>
             </div>
         </div>
 
@@ -213,16 +214,15 @@
 
     <section id="education" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Academic Foundation</h2>
-            <div class="w-20 h-1.5 bg-sky-600 rounded-full mx-auto"></div>
+            <h2 class="animate-pulse text-4xl font-extrabold text-[#D4AF37] mb-4">Academic Foundation</h2>
         </div>
 
         <div class="max-w-3xl mx-auto">
-            <div class="bg-sky-400 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+            <div class="bg-[#D4AF37] p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
                 
                 <div class="relative z-10 text-center flex flex-col items-center">
-                    <span class="text-xs font-bold text-sky-900 uppercase tracking-widest bg-white/50 px-3 py-1 rounded-full mb-6 inline-block">College</span>
+                    <span class="text-xs font-bold text-black uppercase tracking-widest bg-white/50 px-3 py-1 rounded-full mb-6 inline-block">College</span>
                     <h3 class="text-2xl font-bold text-slate-900 mb-2">Bachelor of Science in Information Systems Major in System and Network Security</h3>
                     <p class="text-lg font-semibold text-slate-800 mb-4">Pamantasan ng Lungsod ng San Pablo</p>
                 </div>
@@ -230,41 +230,10 @@
         </div>
     </section>
 
-    <section id="experience" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Experience</h2>
-            <div class="w-20 h-1.5 bg-sky-600 rounded-full mx-auto"></div>
-        </div>
-
-        <div class="max-w-4xl mx-auto">
-            <div class="relative pl-8 sm:pl-32 py-6 group">
-                <div class="absolute left-2 sm:left-14 top-0 bottom-0 w-1 bg-sky-300 group-hover:bg-sky-500 transition-colors"></div>
-                <div class="absolute left-[-5px] sm:left-[47px] top-8 w-6 h-6 rounded-full bg-sky-600 border-4 border-teal-100 shadow-md"></div>
-                
-                <div class="sm:absolute left-0 top-8 sm:w-28 text-left sm:text-right pr-4 mb-3 sm:mb-0">
-                    <span class="text-sm font-bold text-sky-700 bg-sky-200 px-3 py-1 rounded-full">2026</span>
-                </div>
-                
-                <div class="bg-sky-400 p-8 rounded-[2.5rem] shadow-sm border border-slate-200/60 hover:shadow-xl hover:border-sky-500 hover:shadow-sky-100 transition-all duration-300 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-sky-50 rounded-bl-full -mr-8 -mt-8 transition-all group-hover:scale-110 opacity-50"></div>
-                    
-                    <div class="relative z-10">
-                        <h3 class="text-2xl font-bold text-slate-900 mb-1">IT Intern (On-the-Job Training)</h3>
-                        <h4 class="text-lg font-semibold text-slate-800 mb-4">San Pablo Water District</h4>
-                        <p class="text-slate-800 leading-relaxed">
-                            Web-based ticketing system development for customer concerns and technical reports.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-            </div>
-    </section>
-
    <section id="projects" class="py-24 bg-slate-950 rounded-t-[4rem] border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16">
-            <h2 class="text-4xl font-extrabold text-white mb-4">Featured Projects</h2>
+            <h2 class="text-4xl font-extrabold text-[#D4AF37] mb-4">Featured Projects</h2>
             <div class="w-24 h-1.5 bg-sky-500 mx-auto rounded-full"></div>
         </div>
         
