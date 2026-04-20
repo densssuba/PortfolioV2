@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="app.js"></script>
     @vite(['resources/css/app.css'])
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </head>
 <body class="bg-teal-100 text-slate-900 transition-colors duration-300">
 
@@ -104,61 +105,88 @@
                 </div>
             </div>
 
-    <div class="md:col-span-7 bg-[#D4AF37] p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60">
-        <h2 class="text-2xl font-extrabold text-slate-900 mb-8">Tech Stack and Tools</h2>
-        <div class="flex flex-wrap gap-3">
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-orange-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/html5/E34F26" class="w-5 h-5" alt="HTML5">
-                <span class="font-bold text-slate-700 text-sm">HTML</span>
+    <div class="md:col-span-7 bg-[#D4AF37] p-8 rounded-[2.5rem] shadow-sm">
+    <h2 class="text-xl font-extrabold text-slate-900 mb-6">Tech Stack & Tools</h2>
+    
+    <div id="tech-carousel" class="relative w-full" data-carousel="slide">
+        <div class="relative h-44 overflow-hidden rounded-2xl bg-slate-950 p-4">
+            
+            <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/html5/E34F26" class="w-4 h-4" alt="HTML"> HTML
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/CSS/663399" class="w-4 h-4" alt="CSS"> CSS
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/javascript/F7DF1E" class="w-4 h-4" alt="JS"> JS
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-4 h-4" alt="Tailwind"> Tailwind
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/bootstrap/7952B3" class="w-4 h-4" alt="Bootstrap"> Bootstrap
+                    </div>
+                </div>
             </div>
-            <div class="group flex items-center gap-2 px-3 py-1.5 bg-white border border-slate-200 rounded-xl hover:border-purple-500 hover:shadow-md transition-all">
-                <img src="https://cdn.simpleicons.org/CSS/663399" class="w-4 h-4" alt="CSS">
-                <span class="font-bold text-slate-700 text-xs">CSS</span>
+
+            <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item="active">
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/laravel/FF2D20" class="w-4 h-4" alt="Laravel"> Laravel
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" class="w-4 h-4" alt="Node.js"> Node.js
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4" alt="MySQL"> MySQL
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/laragon/0E83CD" class="w-4 h-4" alt="Laragon"> Laragon
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/XAMPP/FB7A24" class="w-4 h-4" alt="XAMPP"> XAMPP
+                    </div>
+                </div>
             </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/laravel/FF2D20" class="w-5 h-5" alt="Laravel"><span class="font-bold text-slate-700 text-sm">Laravel</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-5 h-5" alt="Tailwind"><span class="font-bold text-slate-700 text-sm">Tailwind</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/javascript/F7DF1E" class="w-5 h-5" alt="JS"><span class="font-bold text-slate-700 text-sm">JavaScript</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/InfinityFree/7738C8" class="w-5 h-5" alt="InfinityFree"><span class="font-bold text-slate-700 text-sm">InfinityFree</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/Git/F05032" class="w-5 h-5" alt="Git"><span class="font-bold text-slate-700 text-sm">Git</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-5 h-5" alt="MySQL"><span class="font-bold text-slate-700 text-sm">MySQL</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/ngrok/1F1E37" class="w-5 h-5" alt="ngrok"><span class="font-bold text-slate-700 text-sm">ngrok</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/laragon/0E83CD" class="w-5 h-5" alt="Laragon"><span class="font-bold text-slate-700 text-sm">Laragon</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/XAMPP/FB7A24" class="w-5 h-5" alt="XAMPP"><span class="font-bold text-slate-700 text-sm">XAMPP</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/GitHub/181717" class="w-5 h-5" alt="Github"><span class="font-bold text-slate-700 text-sm">Github</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://api.iconify.design/vscode-icons:file-type-vscode.svg" class="w-5 h-5" alt="VS Code"><span class="font-bold text-slate-700 text-sm">VS Code</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/Netlify/00C7B7" class="w-5 h-5" alt="Netlify"><span class="font-bold text-slate-700 text-sm">Netlify</span>
-            </div>
-            <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/bootstrap/7952B3" class="w-5 h-5" alt="Bootstrap"><span class="font-bold text-slate-700 text-sm">Bootstrap</span>
-            </div>
-              <div class="group flex items-center gap-3 px-5 py-3 bg-white border border-slate-200 rounded-2xl hover:border-sky-500 hover:shadow-lg transition-all">
-                <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" class="w-5 h-5" alt="Node.js"><span class="font-bold text-slate-700 text-sm">Node.js</span>
+
+            <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/git/F05032" class="w-4 h-4" alt="Git"> Git
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/github/181717" class="w-4 h-4" alt="GitHub"> GitHub
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://api.iconify.design/vscode-icons:file-type-vscode.svg" class="w-4 h-4" alt="VS Code"> VS Code
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/netlify/00C7B7" class="w-4 h-4" alt="Netlify"> Netlify
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/ngrok/1F1E37" class="w-4 h-4" alt="ngrok"> ngrok
+                    </div>
+                    <div class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-xl text-xs font-bold shadow-sm">
+                        <img src="https://cdn.simpleicons.org/infinityfree/7738C8" class="w-4 h-4" alt="InfinityFree"> InfinityFree
+                    </div>
+                </div>
             </div>
         </div>
+
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-2 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 group-hover:bg-black/10">
+                <svg class="w-4 h-4 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/></svg>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-2 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 group-hover:bg-black/10">
+                <svg class="w-4 h-4 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg>
+            </span>
+        </button>
     </div>
+</div>
 </section>
 
     <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60 ">
