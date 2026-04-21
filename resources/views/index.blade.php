@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css'])
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </head>
-<body class="bg-teal-100 text-slate-900 transition-colors duration-300">
+<body class="bg-[#042248FF] text-slate-900 transition-colors duration-300">
 
     <div id="preloader" class="fixed inset-0 z-[9999] bg-slate-950 flex items-center justify-center transition-opacity duration-700 ease-in-out">
         <div class="loader JS_on">
@@ -19,13 +19,13 @@
         </div>
     </div>
 
-    <nav class="sticky top-0 z-50 glass border-b border-slate-200/60 bg-[#D4AF37]">
+    <nav class="sticky top-0 z-50 glass border-b border-slate-200/60 bg-[#073A6B]">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <div class="w-10 h-10 bg-sky-600 rounded-xl flex items-center justify-center shadow-lg shadow-sky-200">
-                    <span class="text-white font-bold text-xl">P</span>
+                    <span class="text-white font-bold text-xl">D</span>
                 </div>
-                <span class="text-xl font-extrabold tracking-tight text-sky-950 uppercase">Portfolio</span>
+                <span class="text-xl font-extrabold tracking-tight text-[#000D26] uppercase">Dens Joshua A. Suba</span>
             </div>
             
             <div class="flex items-center gap-8">
@@ -84,10 +84,10 @@
         </div>
     </main>
 
-    <section id="about" class="max-w-7xl mx-auto px-6 py-24  ">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch ">
-            <div class="md:col-span-5 bg-slate-950 p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group">
-                <div class="absolute top-0 right-0 w-32 h-32 bg-[#D4AF37] rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
+    <section id="about" class="max-w-7xl mx-auto px-6 py-24">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+            <div class="md:col-span-5  bg-[#000D26] p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-[#3B85B1FF] rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
                 <h2 class="text-2xl font-extrabold text-white mb-8 relative">Information</h2>
                 <div class="space-y-6 relative">
                     <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-50 hover:bg-sky-50 transition">
@@ -105,7 +105,7 @@
                 </div>
             </div>
 
-    <div class="md:col-span-7 bg-[#D4AF37] p-8 rounded-[2.5rem] shadow-sm">
+    <div class="md:col-span-7 bg-[#3B85B1FF] p-8 rounded-[2.5rem] shadow-sm">
     <h2 class="text-xl font-extrabold text-slate-900 mb-6">Tech Stack & Tools</h2>
     
     <div id="tech-carousel" class="relative w-full" data-carousel="slide">
@@ -176,12 +176,12 @@
         </div>
 
         <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-2 cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 group-hover:bg-black/10">
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 group-hover:bg-white">
                 <svg class="w-4 h-4 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/></svg>
             </span>
         </button>
         <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-2 cursor-pointer group focus:outline-none" data-carousel-next>
-            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 group-hover:bg-black/10">
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/5 group-hover:bg-white">
                 <svg class="w-4 h-4 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg>
             </span>
         </button>
@@ -189,10 +189,10 @@
 </div>
 </section>
 
-    <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60 ">
+    <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-black ">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
             <div>
-                <h2 class="animate-pulse text-4xl font-extrabold text-[#D4AF37] mb-4">
+                <h2 class="animate-pulse text-4xl font-extrabold text-white" mb-4">
                     Certificates & Seminars
                 </h2>
             </div>
@@ -240,19 +240,19 @@
         </div>
     </section>
 
-    <section id="education" class="max-w-7xl mx-auto px-6 py-24 border-t border-slate-200/60">
+    <section id="education" class="max-w-7xl mx-auto px-6 py-24 border-t border-black">
         <div class="text-center mb-12">
-            <h2 class="animate-pulse text-4xl font-extrabold text-[#D4AF37] mb-4">Academic Foundation</h2>
+            <h2 class="animate-pulse text-4xl font-extrabold text-white" mb-4">Academic Foundation</h2>
         </div>
 
         <div class="max-w-3xl mx-auto">
-            <div class="bg-[#D4AF37] p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+            <div class=" bg-[#3B85B1FF] p-10 rounded-[2.5rem] shadow-sm border border-slate-200/60 relative overflow-hidden group hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-sky-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:scale-110"></div>
                 
                 <div class="relative z-10 text-center flex flex-col items-center">
                     <span class="text-xs font-bold text-black uppercase tracking-widest bg-white/50 px-3 py-1 rounded-full mb-6 inline-block">College</span>
                     <h3 class="text-2xl font-bold text-slate-900 mb-2">Bachelor of Science in Information Systems Major in System and Network Security</h3>
-                    <p class="text-lg font-semibold text-slate-800 mb-4">Pamantasan ng Lungsod ng San Pablo</p>
+                    <p class="text-lg font-semibold text-gray mb-4">Pamantasan ng Lungsod ng San Pablo</p>
                 </div>
             </div>
         </div>
@@ -307,9 +307,9 @@
     </div>
 </section>
 
-    <section id="contact" class="py-24 bg-teal-100">
+    <section id="contact" class="py-24 bg-[#042248FF]">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="bg-sky-400 rounded-[3rem] shadow-2xl shadow-sky-100 overflow-hidden border border-slate-100">
+            <div class="bg-sky-400 rounded-[3rem] shadow-sky-100 overflow-hidden border border-slate-100">
                 <div class="flex flex-col md:flex-row">
                     <div class="md:w-1/3 bg-[#D4AF37] p-12 text-white relative overflow-hidden">
                         <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-sky-400 rounded-full opacity-50"></div>
@@ -339,7 +339,7 @@
                         </div>
                     </div>
 
-                <div class="md:w-2/3 p-2 bg-slate-950 ">
+                <div class="md:w-2/3 p-2 bg-black ">
                 <form action="{{ url('/send-message') }}" method="POST" class="space-y-6">
     
                     @csrf 
@@ -347,16 +347,16 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                         <div class="space-y-2">
                             <label class="text-sm font-bold text-white">Name</label>
-                            <input type="text" name="name" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-sky-500 outline-none transition-all">
+                            <input type="text" name="name" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 focus:ring-2 focus:ring-black outline-none transition-all">
                         </div>
                         <div class="space-y-2">
                             <label class="text-sm font-bold text-white">Email</label>
-                            <input type="email" name="email" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-sky-500 outline-none transition-all">
+                            <input type="email" name="email" required class="w-full px-5 py-4 rounded-2xl bg-slate-50  focus:ring-2 focus:ring-black outline-none transition-all">
                         </div>
                     </div>
                     <div class="space-y-2">
                         <label class="text-sm font-bold text-white">Message</label>
-                        <textarea name="message" rows="4" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-sky-500 outline-none transition-all"></textarea>
+                        <textarea name="message" rows="4" required class="w-full px-5 py-4 rounded-2xl bg-slate-50 focus:ring-2 focus:ring-black outline-none transition-all"></textarea>
                     </div>
                     
                     <button class="font-sans flex justify-center gap-2 items-center mx-auto shadow-xl text-lg text-gray-50 bg-[#0A0D2D] backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#FFFFFF] hover:text-black before:-z-10 before:aspect-square before:hover:scale-200 before:hover:duration-500 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group" type="submit">
