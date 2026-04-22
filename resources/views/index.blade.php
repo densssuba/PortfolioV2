@@ -19,43 +19,55 @@
         </div>
     </div>
 
-    <nav class="sticky top-0 z-50 glass border-b border-slate-200/60 bg-[#073A6B]">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-sky-600 rounded-xl flex items-center justify-center shadow-lg shadow-sky-200">
-                    <span class="text-white font-bold text-xl">D</span>
-                </div>
-                <span class="text-xl font-extrabold tracking-tight uppercase rgb-system-blink">
-                    Dens Joshua A. Suba
-                </span>
-            </div>
-            
-            <div class="flex items-center gap-8">
-            <div class="hidden md:flex space-x-10 text-[15px] font-mono uppercase tracking-[0.2em]">
-                <a href="#" class="nav-link text-white relative group">
-                    <span class="relative z-10">Home</span>
-                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="#about" class="nav-link text-white hover:text-cyan-400 transition relative group">
-                    <span class="relative z-10">About</span>
-                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="#certificates" class="nav-link text-white hover:text-cyan-400 transition relative group">
-                    <span class="relative z-10">Certificates</span>
-                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="#education" class="nav-link text-white hover:text-cyan-400 transition relative group">
-                    <span class="relative z-10">Experience</span>
-                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="#projects" class="nav-link text-white hover:text-cyan-400 transition relative group">
-                    <span class="relative z-10">Projects</span>
-                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-            </div>
+    <nav class="sticky top-0 z-50 glass border-b border-slate-200/60 bg-black">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <div class="w-12 h-12 flex items-center justify-center">
+    <img src="img/logo.jpg" alt="Logo" class="w-full h-full object-contain">
+</div>
+            <span class="text-xl font-extrabold tracking-tight uppercase rgb-system-blink text-white">
+                Dens Joshua A. Suba
+            </span>
         </div>
+
+        <div class="hidden md:flex space-x-10 text-[15px] font-mono uppercase tracking-[0.2em]">
+            <a href="#" class="nav-link text-white relative group">
+                <span class="relative z-10">Home</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#about" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                <span class="relative z-10">About</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#certificates" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                <span class="relative z-10">Certificates</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#education" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                <span class="relative z-10">Experience</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#projects" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                <span class="relative z-10">Projects</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
         </div>
-    </nav>
+
+        <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-[#073A6B] border-b border-slate-200/20 px-6 py-6 space-y-4 font-mono uppercase tracking-widest text-center">
+        <a href="#" class="block text-white hover:text-cyan-400 transition">Home</a>
+        <a href="#about" class="block text-white hover:text-cyan-400 transition">About</a>
+        <a href="#certificates" class="block text-white hover:text-cyan-400 transition">Certificates</a>
+        <a href="#education" class="block text-white hover:text-cyan-400 transition">Experience</a>
+        <a href="#projects" class="block text-white hover:text-cyan-400 transition">Projects</a>
+    </div>
+</nav>
 
     <main class="relative overflow-hidden pt-16 pb-24 bg-slate-950 ">
         <div class="absolute top-0 right-0 -z-10 w-1/3 h-full bg-gradient-to-l from-sky-100/50 to-transparent rounded-l-full blur-3xl"></div>
@@ -288,10 +300,10 @@
         </div>
     </section>
 
-   <section id="projects" class="py-24 bg-slate-950 rounded-t-[4rem] border-t border-slate-800">
+   <section id="projects" class="py-24 bg-[#3B85B1FF] rounded-t-[4rem] border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16">
-            <h2 class="text-4xl font-extrabold text-[#D4AF37] mb-4">Featured Projects</h2>
+            <h2 class="text-4xl font-extrabold text-[#042248FF] mb-4">Featured Projects</h2>
             <div class="w-24 h-1.5 bg-sky-500 mx-auto rounded-full"></div>
         </div>
         
@@ -416,5 +428,21 @@
             }, 1500); 
         });
     </script>
+
+    <script>
+    const btn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.add('hidden');
+        });
+    });
+</script>
 </body>
 </html>
