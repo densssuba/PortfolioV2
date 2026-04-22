@@ -25,18 +25,35 @@
                 <div class="w-10 h-10 bg-sky-600 rounded-xl flex items-center justify-center shadow-lg shadow-sky-200">
                     <span class="text-white font-bold text-xl">D</span>
                 </div>
-                <span class="text-xl font-extrabold tracking-tight text-[#000D26] uppercase">Dens Joshua A. Suba</span>
+                <span class="text-xl font-extrabold tracking-tight uppercase rgb-system-blink">
+                    Dens Joshua A. Suba
+                </span>
             </div>
             
             <div class="flex items-center gap-8">
-                <div class="hidden md:flex space-x-10 text-sm font-bold uppercase tracking-widest">
-                    <a href="#" class="text-black">Home</a>
-                    <a href="#about" class="text-black hover:text-sky-600 transition">About</a>
-                    <a href="#certificates" class="text-black hover:text-sky-600 transition">Certificates</a>
-                    <a href="#experience" class="text-black hover:text-sky-600 transition">Experience</a>
-                    <a href="#projects" class="text-black hover:text-sky-600 transition">Projects</a>
-                </div>
+            <div class="hidden md:flex space-x-10 text-[15px] font-mono uppercase tracking-[0.2em]">
+                <a href="#" class="nav-link text-white relative group">
+                    <span class="relative z-10">Home</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#about" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                    <span class="relative z-10">About</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#certificates" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                    <span class="relative z-10">Certificates</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#education" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                    <span class="relative z-10">Experience</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#projects" class="nav-link text-white hover:text-cyan-400 transition relative group">
+                    <span class="relative z-10">Projects</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+                </a>
             </div>
+        </div>
         </div>
     </nav>
 
@@ -237,6 +254,19 @@
                     </svg>
                 </a>
             </div>
+              <div class="group p-8 bg-slate-950 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">AV/EDR Evasion Practical Techniques
+                    Advanced techniques to bypass modern Antivirus and EDR solutions through real-world offensive development strategies.</h3>
+                    <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
+                </div>
+                <a href="https://courses.redteamleaders.com/completion/03672bc50d8db1c2" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
+                    More Info
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -311,7 +341,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="bg-sky-400 rounded-[3rem] shadow-sky-100 overflow-hidden border border-slate-100">
                 <div class="flex flex-col md:flex-row">
-                    <div class="md:w-1/3 bg-[#D4AF37] p-12 text-white relative overflow-hidden">
+                    <div class="md:w-1/3 bg-[#3B85B1FF] p-12 text-white relative overflow-hidden">
                         <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-sky-400 rounded-full opacity-50"></div>
                         <h2 class="text-3xl font-extrabold mb-6 relative">Contact Me</h2>
                         <div class="space-y-8 relative">
