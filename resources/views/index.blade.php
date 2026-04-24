@@ -64,7 +64,7 @@
         <a href="#" class="block text-white hover:text-cyan-400 transition">Home</a>
         <a href="#about" class="block text-white hover:text-cyan-400 transition">About</a>
         <a href="#certificates" class="block text-white hover:text-cyan-400 transition">Certificates</a>
-        <a href="#education" class="block text-white hover:text-cyan-400 transition">Experience</a>
+        <a href="#education" class="block text-white hover:text-cyan-400 transition">Education</a>
         <a href="#projects" class="block text-white hover:text-cyan-400 transition">Projects</a>
     </div>
 </nav>
@@ -218,69 +218,84 @@
 </div>
 </section>
 
-    <section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-black ">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
-            <div>
-                <h2 class="animate-pulse text-4xl font-extrabold text-white" mb-4">
-                    Certificates & Seminars
-                </h2>
-            </div>
-        </div>
+<section id="certificates" class="max-w-7xl mx-auto px-6 py-24 border-t border-black">
+    <div class="mb-12 text-left">
+        <h2 class="animate-pulse text-4xl font-extrabold text-white mb-4">
+            Certificates & Seminars
+        </h2>
+        <div class="w-24 h-1.5 bg-sky-500 rounded-full"></div>
+    </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="group p-8 bg-slate-950 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-                <div>
-                    <h3 class="text-xl font-bold text-white mb-2">Arduin Microprocessor Crash course” College of Computing Studies and technology, PLSP</h3>
-                    <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
-                </div>
-                <a href="https://www.facebook.com/share/p/1J66uhAaWt/" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
-                    More Info
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+    <ol class="items-center sm:flex w-full">
+        <li class="relative mb-6 sm:mb-0 flex-1">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full ring-0 ring-slate-950 sm:ring-8 shrink-0">
+                    <svg class="w-3 h-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                     </svg>
-                </a>
+                </div>
+                <div class="hidden sm:flex w-full bg-slate-700 h-px"></div>
             </div>
+            <div class="mt-3 sm:pe-8">
+                <time class="block mb-2 text-sm font-mono leading-none text-sky-400">June 2025</time>
+                <h3 class="text-lg font-bold text-white mb-1">Arduino Microprocessor</h3>
+                <p class="text-xs text-slate-400 mb-4 italic">CCST, PLSP</p>
+                <a href="https://www.facebook.com/share/p/1J66uhAaWt/" class="text-sky-500 hover:text-white text-xs font-bold uppercase tracking-wider transition-colors">More Info →</a>
+            </div>
+        </li>
 
-            <div class="group p-8 bg-slate-950 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-                <div>
-                    <h3 class="text-xl font-bold text-white mb-2">ICT MONTH Walang Iwanan sa Digital Bayanihan” College of Computing studies and technology, PLSP Pavillion, 2025 </h3>
-                    <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
-                </div>
-                <a href="https://www.facebook.com/share/p/18Z8kYB3wE/" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
-                    More Info
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        <li class="relative mb-6 sm:mb-0 flex-1">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full ring-0 ring-slate-950 sm:ring-8 shrink-0">
+                    <svg class="w-3 h-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                     </svg>
-                </a>
-            </div>
-            
-            <div class="group p-8 bg-slate-950 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-                <div>
-                    <h3 class="text-xl font-bold text-white mb-2">“Managing a business venture” CISCO Networking Acadmey</h3>
-                    <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
                 </div>
-                <a href="https://www.credly.com/earner/earned/share/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
-                    More Info
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg>
-                </a>
+                <div class="hidden sm:flex w-full bg-slate-700 h-px"></div>
             </div>
-              <div class="group p-8 bg-slate-950 border border-slate-200/60 rounded-[2rem] flex flex-col justify-between h-full hover:border-sky-500 hover:shadow-xl hover:shadow-sky-100 transition-all duration-300">
-                <div>
-                    <h3 class="text-xl font-bold text-white mb-2">AV/EDR Evasion Practical Techniques
-                    Advanced techniques to bypass modern Antivirus and EDR solutions through real-world offensive development strategies.</h3>
-                    <p class="text-xs font-bold text-white uppercase tracking-widest mb-6">Issued: June 2025</p>
+            <div class="mt-3 sm:pe-8">
+                <time class="block mb-2 text-sm font-mono leading-none text-sky-400">June 2025</time>
+                <h3 class="text-lg font-bold text-white mb-1">Digital Bayanihan</h3>
+                <p class="text-xs text-slate-400 mb-4 italic">ICT Month Pavilion</p>
+                <a href="https://www.facebook.com/share/p/18Z8kYB3wE/" class="text-sky-500 hover:text-white text-xs font-bold uppercase tracking-wider transition-colors">More Info →</a>
+            </div>
+        </li>
+
+        <li class="relative mb-6 sm:mb-0 flex-1">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full ring-0 ring-slate-950 sm:ring-8 shrink-0">
+                    <svg class="w-3 h-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                    </svg>
                 </div>
-                <a href="https://courses.redteamleaders.com/completion/03672bc50d8db1c2" class="inline-flex items-center gap-2 text-sm font-extrabold text-white hover:text-[#FFD700] transition-colors">
-                    More Info
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg>
-                </a>
+                <div class="hidden sm:flex w-full bg-slate-700 h-px"></div>
             </div>
-        </div>
-    </section>
+            <div class="mt-3 sm:pe-8">
+                <time class="block mb-2 text-sm font-mono leading-none text-sky-400">June 2025</time>
+                <h3 class="text-lg font-bold text-white mb-1">Business Venture</h3>
+                <p class="text-xs text-slate-400 mb-4 italic">CISCO Academy</p>
+                <a href="https://www.credly.com/earner/earned/share/c59e61c6-05d6-4aed-9a7c-d7dd4ae486cf" class="text-sky-500 hover:text-white text-xs font-bold uppercase tracking-wider transition-colors">Verify →</a>
+            </div>
+        </li>
+
+        <li class="relative mb-6 sm:mb-0 flex-1">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full ring-0 ring-slate-950 sm:ring-8 shrink-0">
+                    <svg class="w-3 h-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                    </svg>
+                </div>
+                <div class="hidden sm:flex w-full bg-transparent h-px"></div>
+            </div>
+            <div class="mt-3 sm:pe-8">
+                <time class="block mb-2 text-sm font-mono leading-none text-sky-400">June 2025</time>
+                <h3 class="text-lg font-bold text-white mb-1">AV/EDR Evasion</h3>
+                <p class="text-xs text-slate-400 mb-4 italic">Red Team Leaders</p>
+                <a href="https://courses.redteamleaders.com/completion/03672bc50d8db1c2" class="text-sky-500 hover:text-white text-xs font-bold uppercase tracking-wider transition-colors">Certificate →</a>
+            </div>
+        </li>
+    </ol>
+</section>
 
     <section id="education" class="max-w-7xl mx-auto px-6 py-24 border-t border-black">
         <div class="text-center mb-12">
@@ -300,55 +315,69 @@
         </div>
     </section>
 
-   <section id="projects" class="py-24 bg-[#3B85B1FF] rounded-t-[4rem] border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-extrabold text-[#042248FF] mb-4">Featured Projects</h2>
-            <div class="w-24 h-1.5 bg-sky-500 mx-auto rounded-full"></div>
+   <section id="projects" class="py-20 bg-[#042248FF] rounded-t-[3.5rem] border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-6">
+        <div class="mb-12 text-left">
+            <h2 class="text-3xl font-extrabold text-white mb-3">Project Milestones</h2>
+            <div class="w-20 h-1.5 bg-sky-500 rounded-full"></div>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <div class="group bg-slate-900 border border-slate-800 rounded-[2.5rem] overflow-hidden hover:border-sky-500/50 transition-all shadow-2xl">
-                <div class="overflow-hidden">
-                    <img src="img/project.jpg" 
-                         alt="Inventory POS" 
-                         class="project-zoom w-full h-64 object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-500 cursor-zoom-in">
-                </div>
-                <div class="p-10 text-left">
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="text-sky-500 font-bold text-xs uppercase tracking-widest block">Inventory & POS</span>
-                        <div class="flex gap-2">
-                             <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4" alt="PHP">
-                             <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4" alt="MySQL">
-                        </div>
+        <ol class="relative border-s border-white/30 ms-2">                  
+            
+            <li class="mb-12 ms-8">
+                <div class="absolute w-3.5 h-3.5 bg-sky-500 rounded-full mt-1.5 -start-1.5 border-2 border-slate-900 shadow-[0_0_8px_rgba(14,165,233,0.4)]"></div>
+                
+                <time class="text-xs font-mono font-bold text-white uppercase tracking-widest">October 2025</time>
+                
+                <div class="mt-4 group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-sky-500/50 transition-all duration-300 shadow-xl">
+                    <div class="overflow-hidden h-52">
+                        <img src="img/project.jpg" 
+                             alt="Inventory POS" 
+                             class="w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-110 transition duration-500 cursor-zoom-in">
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">Inventory Management System</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Role-based authentication and stock tracking built with PHP and MySQL.</p>
+                    
+                    <div class="p-8 text-left">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-sky-500 font-bold text-[10px] uppercase tracking-widest">Inventory & POS</span>
+                            <div class="flex gap-2 bg-slate-800/50 p-1.5 rounded-lg">
+                                 <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4" alt="PHP">
+                                 <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4" alt="MySQL">
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Inventory Management System</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Role-based authentication and stock tracking built with PHP and MySQL.</p>
+                    </div>
                 </div>
-            </div>
+            </li>
 
-            <div class="group bg-slate-900 border border-slate-800 rounded-[2.5rem] overflow-hidden hover:border-sky-500/50 transition-all shadow-2xl">
-                <div class="overflow-hidden">
-                    <img src="img/project2.jpg" 
-                         alt="Ticketing System" 
-                         class="project-zoom w-full h-64 object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-500 cursor-zoom-in">
-                </div>
-                <div class="p-10 text-left">
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="text-sky-500 font-bold text-xs uppercase tracking-widest block">Utility</span>
-                        <div class="flex gap-2">
-                             <img src="https://cdn.simpleicons.org/laravel/FF2D20" class="w-4 h-4" alt="Laravel">
-                             <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-4 h-4" alt="Tailwind">
-                        </div>
+            <li class="ms-8">
+                <div class="absolute w-3.5 h-3.5 bg-sky-500 rounded-full mt-1.5 -start-1.5 border-2 border-slate-900 shadow-[0_0_8px_rgba(14,165,233,0.4)]"></div>
+                
+                <time class="text-xs font-mono font-bold text-white uppercase tracking-widest">April 2026</time>
+                
+                <div class="mt-4 group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-sky-500/50 transition-all duration-300 shadow-xl">
+                    <div class="overflow-hidden h-52">
+                        <img src="img/project2.jpg" 
+                             alt="Ticketing System" 
+                             class="w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-110 transition duration-500 cursor-zoom-in">
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">SPCWD Ticketing System</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">A specialized system for managing customer concerns and technical reports for San Pablo City Water District.</p>
+                    
+                    <div class="p-8 text-left">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-sky-500 font-bold text-[10px] uppercase tracking-widest">Utility System</span>
+                            <div class="flex gap-2 bg-slate-800/50 p-1.5 rounded-lg">
+                                 <img src="https://cdn.simpleicons.org/laravel/FF2D20" class="w-4 h-4" alt="Laravel">
+                                 <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-4 h-4" alt="Tailwind">
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">SPCWD Ticketing System</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">A specialized system for managing customer concerns and technical reports for San Pablo City Water District.</p>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </li>
+        </ol>
     </div>
 </section>
-
     <section id="contact" class="py-24 bg-[#042248FF]">
         <div class="max-w-7xl mx-auto px-6">
             <div class="bg-sky-400 rounded-[3rem] shadow-sky-100 overflow-hidden border border-slate-100">
