@@ -49,5 +49,8 @@ function createLightbox(src, alt) {
             document.removeEventListener('keydown', closeEsc);
         }
     });
+
 }
+
+
 

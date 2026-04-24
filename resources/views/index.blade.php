@@ -29,7 +29,7 @@
                 Dens Joshua A. Suba
             </span>
         </div>
-
+       
         <div class="hidden md:flex space-x-10 text-[15px] font-mono uppercase tracking-[0.2em]">
             <a href="#" class="nav-link text-white relative group">
                 <span class="relative z-10">Home</span>
@@ -108,7 +108,7 @@
 
             <div class="relative">
                 <div class="absolute -inset-4 bg-gradient-to-tr from-sky-500 to-indigo-500 rounded-[2rem] blur-2xl opacity-20"></div>
-                <img src="img/dens.jpg" alt="Dens Joshua" class="relative rounded-[2rem] shadow-2xl w-full h-[450px] object-cover border-4 border-white">
+                <img src="img/d.jpg" alt="Dens Joshua" class="relative rounded-[2rem] shadow-2xl w-full h-[450px] object-cover border-4 border-white">
             </div>
         </div>
     </main>
@@ -444,5 +444,6 @@
         });
     });
 </script>
+
 </body>
 </html>
