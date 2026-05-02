@@ -44,7 +44,7 @@
                 <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a href="#education" class="nav-link text-white hover:text-cyan-400 transition relative group">
-                <span class="relative z-10">Experience</span>
+                <span class="relative z-10">Education</span>
                 <span class="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a href="#projects" class="nav-link text-white hover:text-cyan-400 transition relative group">
@@ -318,7 +318,7 @@
    <section id="projects" class="py-20 bg-[#042248FF] rounded-t-[3.5rem] border-t border-slate-800">
     <div class="max-w-4xl mx-auto px-6">
         <div class="mb-12 text-left">
-            <h2 class="text-3xl font-extrabold text-white mb-3">Project Milestones</h2>
+            <h2 class="text-3xl font-extrabold text-white mb-3">Project </h2>
             <div class="w-20 h-1.5 bg-sky-500 rounded-full"></div>
         </div>
         
@@ -327,7 +327,7 @@
             <li class="mb-12 ms-8">
                 <div class="absolute w-3.5 h-3.5 bg-sky-500 rounded-full mt-1.5 -start-1.5 border-2 border-slate-900 shadow-[0_0_8px_rgba(14,165,233,0.4)]"></div>
                 
-                <time class="text-xs font-mono font-bold text-white uppercase tracking-widest">October 2025</time>
+                <time class="text-xs font-mono font-bold text-white uppercase tracking-widest">November 2025</time>
                 
                 <div class="mt-4 group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-sky-500/50 transition-all duration-300 shadow-xl">
                     <div class="overflow-hidden h-52">
@@ -340,8 +340,8 @@
                         <div class="flex justify-between items-center mb-4">
                             <span class="text-sky-500 font-bold text-[10px] uppercase tracking-widest">Inventory & POS</span>
                             <div class="flex gap-2 bg-slate-800/50 p-1.5 rounded-lg">
-                                 <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4" alt="PHP">
-                                 <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4" alt="MySQL">
+                                 <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4 " alt="PHP">
+                                 <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4 " alt="MySQL">
                             </div>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2">Inventory Management System</h3>
