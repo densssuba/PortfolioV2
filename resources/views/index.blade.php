@@ -324,7 +324,7 @@
         
         <ol class="relative border-s border-white/30 ms-2">                  
             
-            <li class="mb-12 ms-8">
+            <li class="mb-12 ms-8"> 
                 <div class="absolute w-3.5 h-3.5 bg-sky-500 rounded-full mt-1.5 -start-1.5 border-2 border-slate-900 shadow-[0_0_8px_rgba(14,165,233,0.4)]"></div>
                 
                 <time class="text-xs font-mono font-bold text-white uppercase tracking-widest">November 2025</time>
@@ -336,11 +336,11 @@
                              class="w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-110 transition duration-500 cursor-zoom-in">
                     </div>
                     
+                    <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4 " alt="PHP">
                     <div class="p-8 text-left">
                         <div class="flex justify-between items-center mb-4">
                             <span class="text-sky-500 font-bold text-[10px] uppercase tracking-widest">Inventory & POS</span>
                             <div class="flex gap-2 bg-slate-800/50 p-1.5 rounded-lg">
-                                 <img src="https://cdn.simpleicons.org/php/777BB4" class="w-4 h-4 " alt="PHP">
                                  <img src="https://cdn.simpleicons.org/mysql/4479A1" class="w-4 h-4 " alt="MySQL">
                             </div>
                         </div>
